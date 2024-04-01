@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "bin": {
-    "pg-migrate": "./dist/index.mjs"
+    "pg-migrate": "./lib/index.mjs"
   },
   "dependencies": {
     "@sinclair/typebox": "^0.32.20",
