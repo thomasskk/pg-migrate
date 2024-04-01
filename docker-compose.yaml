@@ -3,8 +3,6 @@ version: "3.8"
 services:
   testdb:
     image: postgres:16
-    environment:
-      POSTGRES_PASSWORD: password
     restart: unless-stopped
     volumes:
       - type: tmpfs
